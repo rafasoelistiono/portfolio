@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header id="header">
+        <a href="#" class="logo">Rafa</a>
+        <ul>
+            <li><a href="#home" class="active" onclick="toggle()">Home</a></li>
+            <li><a href="#about" onclick="toggle()">About</a></li>
+            <li><a href="#service" onclick="toggle()">Service</a></li>
+            <li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
+            <li><a href="#skill" onclick="toggle()">Skills</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <section id="home">
+        <div>
+            <h2 class="reveal">My name<span>,</span></h2>
+            <h3 class="reveal">Rafa Soelistiono</h3>
+            <p class="reveal">Assalamualaikum, my name is Rafa Soelistiono. I am a student as well as a young programmer. I am very interested in the tech field, especially artificial intelligence and frontend. As a young programmer I also like to work on entrepreneurship.</p>
+            <a href="#">Download Resume</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="border"></div>
+            <p class="reveal">as a programmer, I can already master the surrounding 3 programming languages and I want to learn more about programming, especially about artificial intelligence. I also have great motivation in learning and really like self-taught. my life motivation is success comes from prayer and effort</p>
+            <a href="https://wa.wizard.id/b54a1c">Contact Me</a>
+        </div>
+        <img class="reveal" src="undraw_nature_m5ll.svg" alt="">
+    </section>
+    <section id="service">
+        <div class="reveal">
+            <h2 class="section-title">Our Services</h2>
+            <div class="border"></div>
+            <div class="container">
+                <div class="box">
+                    <div class="icon">01</div>
+                    <div class="content">
+                        <h3>Web Design</h3>
+                        <p>I have the ability to design websites, especially in the display.I can also determine mockups</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">02</div>
+                    <div class="content">
+                        <h3>PPT Design</h3>
+                        <p>I have the ability to design power point templates that look dynamic, flat design, and easy on the eyes.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">03</div>
+                    <div class="content">
+                        <h3>Poster Design</h3>
+                        <p>I have the ability to design posters. I can also use GIMP software especially in designing these posters</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="reveal">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="border"></div>
+            <div class="container">
+                <div class="container-img">
+                    <img class="content1" src="pankaj-patel-6JVlSdgMacE-unsplash.jpg" alt="">
+                    <div class="button">
+                        <a href="#">My work 1</a>
+                    </div>
+                </div>
+                <div class="container-img">
+                    <img class="content1" src="pankaj-patel-6JVlSdgMacE-unsplash.jpg" alt="">
+                    <div class="button">
+                        <a href="#">My work 2</a>
+                    </div>
+                </div>
+                <div class="container-img">
+                    <img class="content1" src="pankaj-patel-6JVlSdgMacE-unsplash.jpg" alt="">
+                    <div class="button">
+                        <a href="#">My work 3</a>
+                    </div>
+                </div>
+                <div class="container-img">
+                    <img class="content1" src="pankaj-patel-6JVlSdgMacE-unsplash.jpg" alt="">
+                    <div class="button">
+                        <a href="#">My work 4</a>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section id="skill">
+        <div class="reveal">
+            <h2 class="section-title">My Skills</h2>
+            <div class="border"></div>
+            <div class="skill">
+                <div class="skill-title">HTML</div>
+                <div class="skill-bar"></div>
+                <div class="xml skill-fill">
+                    <span class="skill-percent">50%</span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-title">CSS</div>
+                <div class="skill-bar"></div>
+                <div class="css skill-fill">
+                    <span class="skill-percent">80%</span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-title">javascript</div>
+                <div class="skill-bar"></div>
+                <div class="js skill-fill">
+                    <span class="skill-percent">70%</span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-title">Graphic Design</div>
+                <div class="skill-bar"></div>
+                <div class="gd skill-fill">
+                    <span class="skill-percent">85%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer section">
+        <div class="footer__container">
+            <h1 class="footer__title">Rafa Soelistiono</h1>
+            <p class="footer__description"id="font">rafasoelistiono@gmail.com<br>Jakarta,Indonesia<br>081511314362</p>
+
+            <div class="footer__social">
+                <a href="https://github.com/rafasoelistiono" class="footer__link"><i class="bx bxl-github"></i></a>
+                <a href="https://www.instagram.com/rafasoelistiono/" class="footer__link"><i class="bx bxl-instagram"></i></a>
+                <a href="linkedin.com/in/rafa-rally-soelistiono-2107861b8" class="footer__link"><i class="bx bxl-linkedin"></i></a>
+            </div>
+
+            <p class="footer__copy">All right reserved by Rafa - 2020</p>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function toggle(){
+            var header = document.getElementById('header')
+            header.classList.toggle('active')
+        }
+
+        document.addEventListener('scroll', () => {
+	    var scroll_position = window.scrollY;
+	        if (scroll_position > 500) {
+		        header.style.backgroundColor = '#2E3047';
+	        } else {
+		        header.style.backgroundColor = 'transparent';
+	        }
+        });
+    </script>
+    <script src="scroll-out.js"></script>
+    <script type="text/javascript">
+            ScrollOut({
+                targets: '.reveal, .css, .js, .xml, .gd'
+            })
+    </script>
+</body>
+</html>
